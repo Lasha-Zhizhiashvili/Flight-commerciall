@@ -1,0 +1,443 @@
+.flight-box1 {
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  width: fit-content;
+  transform: translate(0);
+}
+
+.ganputs {
+  margin-top: 18px;
+}
+
+.heh {
+  width: 56px;
+  height: 56px;
+}
+
+.MuiSlider-rail {
+  background-color: #112211 !important;
+  opacity: 1 !important;
+  height: 2px !important;
+}
+
+.MuiSlider-track {
+  background-color: #112211 !important;
+  border: none !important;
+  height: 2px !important;
+}
+
+.MuiSlider-thumb {
+  background-color: #8dd3bb !important;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.MuiSlider-valueLabel {
+  top: 60px !important;
+  background-color: #fafbfc !important;
+  color: black !important;
+  transform: translateY(-100%) scale(1) !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb:hover {
+  box-shadow: none !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb {
+  box-shadow: none !important;
+}
+
+.css-nnid7-MuiSlider-valueLabel:before {
+  content: none !important;
+}
+
+.fill-box > :nth-child(2) {
+  padding-left: 13px !important;
+}
+
+.SliderRoot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  touch-action: none;
+  width: 100%;
+  height: 20px;
+}
+
+#slider-root-cont {
+  position: relative;
+}
+
+.SliderTrack {
+  background-color: #112211;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 9999px;
+  height: 2px;
+}
+
+.SliderRange {
+  position: absolute;
+  background-color: #112211;
+  border-radius: 9999px;
+  height: 100%;
+}
+
+.SliderThumb {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: #8dd3bb;
+  box-shadow: 0 2px 10px var(--blackA7);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.SliderThumb1 {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: #8dd3bb;
+  box-shadow: 0 2px 10px var(--blackA7);
+  border-radius: 50px;
+  cursor: pointer;
+  display: block !important;
+}
+.SliderThumb:hover {
+  background-color: #8dd3bb;
+}
+.SliderThumb:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px var(--blackA8);
+}
+
+#slider-root-cont {
+  padding-left: 0 !important;
+  padding: 20px 5px;
+}
+
+#time1 {
+  position: absolute;
+  left: calc(0% + 0);
+}
+
+#time2 {
+  position: absolute;
+  left: calc(96% + -40px);
+}
+
+#but-cont {
+  padding-left: 0 !important;
+  margin-top: 10px;
+}
+
+#but-cont button {
+  border: 1px solid #8dd3bb;
+  border-radius: 4px;
+  padding: 5px 12px;
+  margin: 10px;
+}
+
+#but-cont button[data-enabled="true"] {
+  background-color: #8dd3bb;
+}
+
+#LIS {
+  padding-left: 0 !important;
+  margin-top: 10px;
+}
+
+#LIS ul {
+  padding-left: 0;
+}
+
+#LIS li {
+  list-style: none;
+}
+
+#LIS ul li input[type="checkbox"] {
+  margin-right: 10px;
+  border: 2px solid #112211;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.secondFilterBox {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.secondFilterColl {
+  width: 25%;
+  padding: 17px 0 17px 24px;
+  cursor: pointer;
+}
+
+.secondFiltertext {
+  border-right: 1px solid #d7e2ee;
+}
+
+.secondFiltertext p {
+  margin-bottom: 0px;
+  opacity: 0.4;
+}
+
+.secondFiltertext1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.secondFiltertext1 p {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.filters {
+  padding-right: 40px;
+  transition: all 0.3s linear;
+}
+
+.buyings {
+  position: relative;
+}
+
+.leftLine {
+  background: #112211;
+  opacity: 0.25;
+  width: 0.5px;
+  height: 100%;
+  position: absolute;
+  left: -15px;
+}
+
+.greenLine {
+  border: 3px solid #8dd3bb;
+  width: 23%;
+  height: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 24%;
+  transition: all 0.6s ease-in-out;
+}
+
+.arrange {
+  display: flex;
+  margin: 15px 0;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.arrange select {
+  border: none !important;
+  border-radius: 1px;
+  cursor: pointer;
+  background-color: #fafbfc;
+  font-size: 19px;
+  font-weight: bold;
+  appearance: none;
+  padding-right: 30px;
+}
+
+.arrange img {
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+}
+
+.arrange h5 {
+  margin-bottom: 0px;
+  margin-right: 8px;
+}
+
+.arrange span {
+  color: #ff8682;
+}
+
+.FlyCard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.FlyCardColl {
+  width: 25%;
+}
+
+.FlyCardColll {
+  width: 75%;
+}
+
+.FlyCard h5,
+.FlyCard p,
+.FlyCard h6 {
+  margin-bottom: 0px;
+}
+
+.FlyCardRead img {
+  width: 100%;
+  height: 150px;
+  padding-right: 20px;
+}
+
+.showMoreBtnBox {
+  text-align: center;
+}
+
+.showMoreBtn {
+  width: 100%;
+  background: #112211;
+  border-radius: 4px;
+  color: white;
+  height: 48px;
+}
+
+.setExactTime{
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.setExactTime button{
+  background-color: #8dd3bb;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.setExactTime input{
+  width: 40px;
+  text-align: center;
+}
+
+.setExactTime input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.setExactTime h4{
+  position: absolute;
+}
+
+@media (max-width: 1400px) {
+  .inputs select {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .filters {
+    position: fixed;
+    background-color: white;
+    z-index: 9999999;
+    left: 0px;
+    top: 0px;
+    padding: 10px 20px 0px 10px;
+    height: 100%;
+    overflow-y: scroll;
+    border-right: 1px solid black;
+  }
+  .filters[data-index="true"] {
+    transform: translateX(-100%);
+    overflow-y: unset;
+    padding-right: 80px;
+    background-color: inherit;
+    border-right: none;
+  }
+
+  .filterham{
+    display: flex !important;
+  }
+
+  .filterham[data-index = true]{
+    left: 2% !important;
+    transition: all 0.3s linear;
+  }
+
+  .mnb h4 {
+    margin-bottom: 5px !important;
+  }
+
+  .buyings {
+    width: 100% !important;
+  }
+
+  .leftLine {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767px){
+  .secondFilterColl{
+    width: 50%;
+  }
+  .greenLine{
+    display: none;
+  }
+
+  .FlyCardColl{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .FlyCardColll{
+    width: 100%;
+  }
+
+  .filters{
+    width: 55% !important;
+  }
+
+  .filterham{
+    left: 56% !important;
+  }
+
+  .flight-box1{
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 500px){
+  .opp{
+     margin: 0px auto 25px !important; 
+  }
+
+  .FlyCard h5{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px){
+  .opp{
+     margin: 0px auto 25px !important; 
+  }
+
+  .FlyCard h5{
+    font-size: 13px;
+  }
+
+  .arrange{
+    text-align: center;
+  }
+
+  .arrange h6{
+    width: 100%;
+  }
+
+  .ksuk{
+   justify-content: center;
+   width: 100% !important;
+  }
+}

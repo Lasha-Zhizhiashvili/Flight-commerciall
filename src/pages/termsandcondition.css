@@ -1,0 +1,166 @@
+.mrtxt div {
+  align-items: center;
+}
+
+.TermBox {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 14px;
+  border: 1px solid #eaeaea;
+  padding: 0px !important;
+  width: 70%;
+}
+
+.TermColl {
+  width: 30%;
+  background: #ebf6f2;
+  border-radius: 14px 0 0 14px;
+  padding: 24px;
+}
+
+.TermColl1 {
+  width: 70%;
+  position: relative;
+}
+
+.TermRead1 {
+  background-color: #8dd3bb;
+  border-radius: 0 14px 0 0;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.TermRead1 h6 {
+  margin-left: auto;
+}
+
+.TermRead1 p,
+h4 {
+  margin-bottom: 4px !important;
+}
+
+.TermMother {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.TermRead1 img {
+  width: 54px;
+  height: 54px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+.TermBox1 {
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  width: 30%;
+}
+
+.TermBox1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.SmallSvgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SmallSvgColl{
+    width: 25%;
+}
+
+.TermReadd{
+    padding: 24px;
+}
+
+.SmallSvgRead{
+    display: flex;
+}
+
+.SmallSvgRead p, h6{
+    margin-bottom: 0px !important;
+}
+
+.SmallSvgRead svg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.EK{
+    position: absolute;
+    left: 24px;
+    bottom: 15px;
+}
+
+.QRCODE{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.actualText{
+    margin-top: 64px;
+}
+
+.actualText h3{
+    margin-bottom: 34px;
+}
+
+.actualText h5{
+    margin-bottom: 16px;
+}
+
+@media(max-width: 1400px){
+    .TermBox{
+        width: 100%;
+    }
+
+    .TermBox1{
+        width: 50%;
+    }
+
+    .TermMother{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 991px){
+    .SmallSvgColl {
+        width: 50%;
+    }
+    
+}
+
+@media(max-width: 767px){
+    .TermBox1{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 550px){
+    .TermColl{
+        width: 100%;
+        border-radius: 14px 14px 0 0 ;
+        text-align: center;
+    }
+
+    .TermColl1{
+        width: 100%;
+    }
+
+    .TermRead1{
+        border-radius: 0px;
+    }
+
+    .SmallSvgs {
+        margin-bottom: 75px;
+    }
+}

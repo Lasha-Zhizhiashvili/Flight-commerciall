@@ -1,0 +1,108 @@
+.header3{
+    background-image: url(../img/header3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    position: relative;
+    margin: 0;
+    height: 620px;
+}
+
+.poto h1{
+    padding-top: 80px;
+    margin-left: 140px;
+    width: 500px;
+    color: white;
+    font-size: 60px;
+}
+
+.bmw{
+    margin-left: 140px;
+    width: 400px;
+    color: white;
+    font-size: 23px;
+}
+
+.recentSearch{
+    margin-top: 200px;
+}
+
+.RecentCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.RecentCards .cardcont-coll{
+    pointer-events: none;
+    width: 25%;
+}
+
+.RecentCards .box-card{
+    box-shadow: none !important;
+}
+
+@media (max-width: 1200px){
+    .FlyCardColl{
+        width: 100% !important;
+    }
+
+    .FlyCardRead img{
+        border-radius: 20px;
+    }
+
+    .klk{
+        margin-right: 17px !important;
+    }
+
+    .FlyCardColll{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 769px){
+    .recentSearch{
+        margin-top: 300px;
+        text-align: center;
+    }
+
+    .poto h1 {
+        padding-top: 100px;
+        margin-left: 100px;
+        width: 500px;
+        color: white;
+        font-size: 40px;
+        width: fit-content;
+    }
+
+    .bmw {
+        margin-left: 100px;
+        width: 400px;
+        color: white;
+        font-size: 23px;
+        width: fit-content;
+    }
+
+    .poto .flight-box{
+        bottom: -210px;
+    }
+}
+
+@media (max-width: 500px){
+    .poto h1 {
+        padding-top: 100px;
+        margin-left: 50px;
+        width: 500px;
+        color: white;
+        font-size: 40px;
+        width: fit-content;
+    }
+
+    .bmw {
+        margin-left: 50px;
+        width: 400px;
+        color: white;
+        font-size: 23px;
+        width: fit-content;
+    }
+}

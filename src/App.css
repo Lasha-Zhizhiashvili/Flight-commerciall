@@ -1,0 +1,230 @@
+.Black[data-check-if-active = false] {
+    display: none;
+}
+
+.Black[data-check-if-active = true] {
+    display: block;
+}
+
+footer[data-check-if-active = false]{
+    display: none;
+}
+
+footer[data-check-if-active = true]{
+    display: block;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: all 0.1s linear;
+}
+
+.loggedinInfo{
+    display: flex;
+    gap: 32px;
+    position: relative;
+}
+
+.FavoriteButt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.FavoriteButt p{
+    position: absolute;
+    left: 52%;
+    top: 10px;
+}
+
+.FavoriteButt svg{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.ProfileButt{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.ProfileButt img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.loggedinInfo1{
+    display: flex;
+    gap: 32px;
+    position: relative;
+}
+
+.FavoriteButt1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.FavoriteButt1 p{
+    position: absolute;
+    left: 52%;
+    top: 10px;
+}
+
+.FavoriteButt1 svg{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.ProfileButt1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.ProfileButt1 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.jarti{
+    position: absolute;
+    left: 35px;
+    bottom: 2px;
+}
+
+.jarti1{
+    position: absolute;
+    left: 35px;
+    bottom: 2px;
+}
+
+.butt div[data-index = true]{
+    transform: translateX(135px);
+    transition: all 0.6s ease-in-out;
+}
+
+.butt div[data-index = false]{
+    transform: translateX(0px);
+    transition: all 0.6s ease-in-out;
+}
+
+.logginBox{
+    position: absolute;
+    z-index: 9999999999999999999999;
+    background-color: white;
+    top: -125px;
+    right: 250px;
+    padding: 30px;
+    transform: scale(1.2);
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: none;
+}
+
+.logginBox1{
+    position: absolute;
+    z-index: 9999999999999999999999;
+    background-color: white;
+    top: 90px;
+    right: 80px;
+    padding: 30px;
+    transform: scale(1.2);
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: none;
+}
+
+.logginBox2{
+    position: absolute;
+    z-index: 9999999999999999999999;
+    background-color: white;
+    top: 90px;
+    left: -250px;
+    padding: 30px;
+    transform: scale(1.2);
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: none;
+}
+
+.logginBox[data-index = true]{
+    display: block;
+}
+
+.logginBox[data-index = false]{
+    display: none;
+}
+
+.logginBox1[data-index = true]{
+    display: block;
+}
+
+.logginBox1[data-index = false]{
+    display: none;
+}
+
+.logginBox2[data-index = true]{
+    display: block;
+}
+
+.logginBox2[data-index = false]{
+    display: none;
+}
+
+.logginBox div div p{
+    margin-bottom: 0px !important;
+}
+
+.ProfileButt1{
+    position: relative;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    opacity: 0.7;
+    margin: 20px 0 !important;
+}
+
+.maindiv div{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.arrowbut{
+    margin-left: auto;
+}
+
+.closedNav{
+    width: 100%;
+    background-color: #27bba3;
+    height: 0px;
+    transition: all 0.6s linear;
+    position: absolute;
+    z-index: 99999999999999999999;
+    padding: 20px;
+    top: -400px;
+    display: none;
+}
+
+.closedNav[data-index = "true"]{
+    height: 300px;
+    top: 0px;
+}

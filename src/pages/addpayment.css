@@ -1,0 +1,133 @@
+.payInputsWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payInputs input{
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    width: 100%;
+    padding: 16px;
+    background-color: #fafbfc;
+}
+
+.payInputs select{
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    width: 100%;
+    padding: 16px;
+    background-color: #fafbfc;
+}
+
+.payInputs{
+    position: relative;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.payInputs span{
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    background-color: #fafbfc;
+    padding: 0 5px;
+}
+
+.smallerones{
+    width: 50% !important;
+}
+
+.jit{
+    padding-right: 24px;
+}
+
+.jkl{
+  cursor: pointer;
+}
+
+.addPaymentRead1 h5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.PaymentButton input{
+    width: 20px;
+    height: 20px;
+}
+
+.PaymentButton{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.PayBut button{
+    width: 100%;
+    background: #8DD3BB;
+    border-radius: 4px;
+    height: 48px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.PayBut p{
+    opacity: 0.75;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payInputs.error input {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  
+  @keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  
+  .shake {
+    animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  .react-datepicker-popper{
+    left: -240px !important;
+    top: -110px !important;
+  }
+
+  .react-datepicker__triangle{
+    display: none !important;
+  }

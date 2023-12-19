@@ -1,0 +1,84 @@
+@import url("https://fonts.cdnfonts.com/css/trade-gothic-lt-std");
+
+body {
+  margin: 0;
+  background: #fafbfc;
+  overflow-x: hidden;
+}
+
+.header1 {
+  border-radius: 24px;
+  margin: 30px;
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.foto {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  border-radius: 24px;
+}
+
+.Black[data-check-if-active = 'false'] {
+  display: none;
+}
+
+.textt{
+  margin-bottom: 10px;
+}
+
+a{
+  color: rgb(68, 67, 67);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(68, 67, 67);
+  text-decoration: none;
+}
+
+.cardcont-box{
+  margin-bottom: 30px !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.cardcont-coll{
+  width: 33%; 
+  padding: 16px;
+}
+
+.cardcont-read{
+  cursor: pointer;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1620px !important;
+  }
+}
+
+@media (max-width: 1200px){
+  .cardcont-coll{
+      width: 50% !important;
+  }
+  .Vinland h5{
+    padding: 0 100px !important;
+  }
+}
+
+@media (max-width: 769px){
+  .cardcont-coll{
+      width: 100% !important;
+  }
+  .Vinland h5{
+    padding: 0px !important;
+  }
+}

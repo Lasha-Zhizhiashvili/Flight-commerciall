@@ -1,0 +1,20 @@
+.fill-box[data-enabled = 'false'] {
+    height: 40px;
+    overflow: hidden;
+}
+
+.fill-box{
+    border-bottom: 1px #112211 solid;
+    margin-top: 15px; 
+    padding-bottom: 30px;
+    transition: all 0.3s cubic-bezier(0.07, 0.62, 0.7, 1.1);
+    height: fit-content;
+}
+
+.fill-box svg[data-enabled = 'false'] {
+    transform: rotate(180deg);
+}
+
+.fill-box svg{
+    cursor: pointer;
+}

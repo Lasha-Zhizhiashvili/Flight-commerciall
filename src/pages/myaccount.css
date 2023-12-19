@@ -1,0 +1,297 @@
+.backimg{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 20px;
+    position: relative;
+}
+
+.backimg button{
+    margin-left: auto;
+}
+
+.ggkumalal{
+    position: absolute;
+    bottom: -130px;
+}
+
+.ggkumalal h5{
+    text-align: center;
+}
+
+.ggkumalal p{
+    text-align: center;
+    opacity: 0.7;
+}
+
+.ggkumalal img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 55px;
+    margin-bottom: 15px;
+    border: 3px solid salmon;
+}
+
+.ggkumalal svg{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.tab-navigation {
+    width: 100%;
+    margin: 150px auto 0;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+  }
+  
+  .tab {
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  .tabs div{
+    border-right: 1px solid black;
+    width: 33.3333%;
+  }
+  
+  .tab.active {
+    font-weight: bold;
+  }
+  
+  .green-line {
+    height: 4px;
+    background-color: #8DD3BB;
+    position: absolute;
+    bottom: 0;
+    transition: left 0.3s ease;
+    border-right: none !important;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+
+  .infodiv{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+
+  .cred p{
+    margin-bottom: 0px;
+  }
+
+  .cred{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+
+  .cred button{
+    margin-left: auto;
+  }
+
+  .my-tabs{
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+    position: relative;
+  }
+
+  .my-tab{
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .my-tab h4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .my-green-line{
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    background-color: #8DD3BB;
+    padding: 0 10px;
+    bottom: 0;
+    z-index: 9999999999999999999;
+    transition: 0.5s ease-in;
+  }
+
+
+  .emiratesBox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  .emiratesBox p{
+    opacity: 0.7;
+    margin-bottom: 0px !important;
+  }
+
+  .emiratesFoto{
+    border: 1px gray solid;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .emiratesFoto img{
+    width: 70px;
+  }
+
+  .emojyDiv{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .popsmoke{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .blackLine{
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin: 0 20px;
+  }
+
+  .ticketButton{
+    margin-left: auto;
+    display: flex;
+  }
+
+  .n{
+    background-color: #8DD3BB !important;
+    padding: 15px ; 
+    border-radius: 4px;
+    margin-right: 15px;
+  }
+
+  .m{
+    border: 1px solid #8DD3BB;
+    border-radius: 4px;
+    padding: 15px;
+  }
+
+  @media (max-width: 1200px){
+    .popsmoke{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 991px){
+    .emiratesBox{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .ticketButton{
+      justify-content: center;
+      margin-left: 0;
+    }
+
+   .popsmoke{
+    margin-left: 40%;
+   }
+
+   .emojyDiv{
+    margin-bottom: 30px
+   }
+  }
+
+
+  @media(max-width: 767px){
+    .cred button{
+      margin-right: auto;
+    }
+
+    .cred div {
+      width: 100%;
+      text-align: center;
+    }
+
+    .cred{
+      margin-top: 30px;
+    }
+
+    .tab-content h1{
+      text-align: center;
+    }
+
+    .cred h3{
+      font-size: calc(1.3rem + -0.4vw);
+    }
+
+  }
+
+  .paymentcoll{
+    width: 378px;
+    height: 212px;
+    padding-bottom: 0px;
+  }
+
+  .newcardcoll{
+    width: 378px;
+    height: 212px;    
+  }
+
+  .paymentread{
+     height: 100%;
+     border-radius: 15px;
+     align-items: unset;
+     flex-wrap: wrap;
+  }
+
+  .paymentread b{
+    margin-left: 0px;
+  }
+
+  .newcardread{
+     height: 100%;
+     margin-top: 0px;
+     margin-left: 20px;
+  }
+
+  .creditbox{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+  }

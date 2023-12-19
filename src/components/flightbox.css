@@ -1,0 +1,349 @@
+@import url("https://fonts.cdnfonts.com/css/trade-gothic-lt-std");
+
+.inputs p{
+  
+  padding: 5px 10px;
+  border: 1px rgb(175, 171, 171);
+  box-shadow: 0px 0px 10px -5px black;
+  margin-bottom: 1px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.the{
+  position: absolute !important;
+  z-index: 999999999999999;
+  top: 57px;
+  display: none;
+  width: 350px;
+}
+
+.thee{
+  position: absolute !important;
+  z-index: 999999999999999;
+  top: 57px;
+  display: none;
+  width: 150px;
+}
+
+.thhe{
+  position: absolute !important;
+  z-index: 999999999999999;
+  top: 57px;
+  display: none;
+  width: 350px;
+}
+
+.thhee{
+  position: absolute !important;
+  z-index: 999999999999999;
+  top: 57px;
+  display: none;
+  width: 150px;
+}
+
+.jj{
+  display: flex;
+  transition: all 0.5s ease-in-out;
+}
+
+.end{
+  width: 100%;
+}
+
+.end1{
+  position: absolute;
+  left: 100%;
+  width: 100%;
+  margin-left: 20%;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+}
+
+.text h3 {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+  margin-top: 90px;
+}
+
+.text h1 {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150px;
+  color: white;
+}
+
+.text h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 250px;
+}
+
+.but a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.but {
+  display: flex;
+  position: relative;
+}
+
+.but img {
+  margin-right: 5px;
+}
+
+.flight-box {
+  background-color: white;
+  border-radius: 24px;
+  padding: 10px 30px;
+  position: absolute;
+  bottom: -150px;
+  box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15);
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.only {
+  border-left: 1px solid #d7e2ee;
+  padding-left: 32px;
+}
+
+.onl {
+  height: 40px;
+  margin-right: 25px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inputs {
+  margin-top: 34px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputs div {
+  position: relative;
+}
+
+.inputs div img {
+  position: absolute;
+  right: 30px;
+  top: 17px;
+  cursor: pointer;
+}
+
+#change{
+  appearance: none;
+  background-position: calc(100% - 0.75rem) center;
+}
+
+.but svg{
+  position: absolute;
+  bottom: -10%;
+  left: -0.3%;
+  transition: all 0.3s ease-in-out;
+  z-index: 99999999;
+}
+
+.kok {
+  top: 25px !important;
+}
+
+.inputs input:nth-child(1) {
+  margin-left: 0 !important;
+}
+
+.inputs select {
+  border: 1px solid #79747e;
+  border-radius: 4px;
+  padding: 15px;
+  width: 350px;
+  margin-right: 12px;
+  margin-bottom: 18px;
+}
+
+.inputs input{
+  border: 1px solid #79747e;
+  border-radius: 4px;
+  padding: 15px;
+  width: 350px;
+  margin: 0 12px;
+  margin-bottom: 18px;
+  pointer-events: none;
+}
+
+.inputs span {
+  position: absolute;
+  z-index: 9999;
+  top: -13px;
+  left: 25px;
+  background-color: white;
+}
+
+.small {
+  width: 150px !important;
+  height: 55px;
+  font-size: 16px;
+  appearance: none;
+}
+
+.twobut {
+  display: flex;
+  width: 100%;
+  margin: 32px 0;
+}
+
+.twobut button {
+  border: none;
+  background-color: white;
+}
+
+.hah {
+  background: #8dd3bb !important;
+  padding: 9px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.hah1 {
+  margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+  .twobut {
+    margin: 15px 0;
+  }
+
+  .small {
+    width: 350px !important;
+  }
+
+  .text h3 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .text h1 {
+    font-size: 115px;
+  }
+
+  .inputs input {
+    width: 250px;
+  }
+
+  .small {
+    width: 250px !important;
+  }
+}
+
+@media (max-width: 769px) {
+  .text h1 {
+    font-size: 130px;
+  }
+
+  .inputs input {
+    width: 350px;
+  }
+
+  .small {
+    width: 350px !important;
+  }
+
+  .inputs {
+    justify-content: center;
+  }
+
+  .text h3 {
+    font-size: 40px;
+  }
+
+  .text h1 {
+    font-size: 85px;
+  }
+
+  .flight-box {
+    bottom: -285px;
+  }
+
+  .header1 {
+    margin-bottom: 130px !important;
+  }
+
+  nav {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: flex !important;
+  }
+  .closedNav{
+    display: flex !important;
+  }
+}
+
+@media (max-width: 591px) {
+  .text h1 {
+    font-size: 60px;
+  }
+
+  .text h3 {
+    font-size: 35px;
+  }
+
+  .text h5 {
+    font-size: 20px;
+    padding-bottom: 220px;
+  }
+}
+
+@media (max-width: 520px) {
+  .inputs input {
+    width: 220px !important;
+  }
+  
+  .inputs select{
+    width: 220px !important;
+  }
+
+  .header1 {
+    margin: 20px 20px 130px 20px !important;
+  }
+}
+
+@media (max-width: 441px) {
+  .twobut {
+    flex-wrap: wrap;
+  }
+
+  .twobut {
+    justify-content: center;
+  }
+
+  .hah1 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .flight-box {
+    bottom: -300px;
+  }
+}

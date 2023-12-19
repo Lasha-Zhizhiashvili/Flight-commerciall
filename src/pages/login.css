@@ -1,0 +1,205 @@
+.LoginBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 104px 0;
+}
+
+.LoginColl {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.LoginColl1 {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.jkl {
+  margin-bottom: 70px;
+}
+
+.crock{
+  margin-bottom: 48px;
+}
+
+.maininputs input {
+  height: 56px;
+  width: 100%;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fafbfc;
+}
+
+.maininputs {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.maininputs span {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  background-color: #fafbfc;
+  padding: 0px 3px;
+}
+
+.maininputs svg{
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    cursor: pointer;
+}
+
+.secondinput {
+  display: flex;
+  align-items: center;
+}
+
+.secondinput label{
+    display: flex;
+}
+
+.secondinput span {
+  margin-left: auto;
+  color: #ff8682;
+  cursor: pointer;
+}
+
+.secondinput input {
+  margin-right: 10px;
+}
+
+.loginbutton {
+  margin-top: 40px;
+}
+
+.loginbutton button {
+  width: 100%;
+  height: 48px;
+  background: #8dd3bb;
+  border-radius: 4px;
+}
+
+.signupbutton {
+  width: 100%;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.signupbutton b {
+  color: #ff8682;
+  cursor: pointer;
+}
+
+.LoginRead .orCont .Toom {
+  background-color: #fafbfc;
+  position: absolute;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.LoginRead .orCont {
+  margin-top: 40px;
+}
+
+.LoginRead .CreditCardBox {
+  margin-top: 5px;
+  background-color: #fafbfc;
+  box-shadow: none;
+}
+
+.LoginRead1 {
+  text-align: right;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 816px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.cards-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: all 1s ease-in-out;
+}
+
+.card {
+  flex: 1 0 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #eee;
+  transition: transform 0.6s ease-in-out;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card.active {
+  transform: translateX(0);
+}
+
+.dots-wrapper {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  background-color: #ddd;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.dot.active {
+  transition: all 0.5s ease-in-out;
+  background-color: #8dd3bb;
+  width: 40px;
+}
+
+@media (max-width: 991px) {
+  .LoginColl1 {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .LoginColl1 {
+    width: 100%;
+  }
+
+  .LoginColl{
+    width: 100%;
+    padding-right: 0px;
+  }
+}

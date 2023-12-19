@@ -1,0 +1,140 @@
+.SignupBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 104px 0;
+}
+
+.SignupColl {
+  width: 40%;
+  padding-right: 50px;
+}
+
+.SignupColl1 {
+  width: 60%;
+  padding-left: 50px;
+}
+
+.Toomfolery {
+  width: 50% !important;
+}
+
+.maininputs {
+  width: 100%;
+  background-color: #fafbfc;
+}
+
+.InputsWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.InputsWrap :first-child,
+.ggbri {
+  padding-right: 24px;
+}
+
+.secondinput a {
+  color: #ff8682;
+}
+
+.Signupbutton button {
+  height: 48px;
+  background: #8dd3bb;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.orCont .Toom {
+  position: absolute;
+  z-index: 999999;
+  background-color: #fafbfc;
+  padding: 15px;
+}
+
+.orCont h6 {
+  opacity: 0.5;
+}
+
+.SignupRead1 .CreditCardBox {
+  margin-top: 5px;
+  background-color: #fafbfc;
+  box-shadow: none;
+}
+
+.zxc {
+  margin-bottom: 48px;
+}
+
+.maininputs.error input {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.shake {
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@media (max-width: 1200px) {
+  .SignupColl {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .SignupColl {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .SignupColl1 {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Toomfolery {
+    width: 100% !important;
+  }
+
+  .InputsWrap :first-child {
+    padding-right: 0px;
+  }
+
+  .ggbri {
+    padding-right: 0px;
+  }
+}

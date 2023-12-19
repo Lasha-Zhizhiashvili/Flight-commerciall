@@ -1,0 +1,465 @@
+.DetailBox {
+  display: flex;
+}
+
+.DetailFirstColl {
+  width: 60%;
+}
+
+.DetailSecondColl {
+  width: 40%;
+  padding-left: 40px;
+}
+
+.flightDetailText {
+  margin-top: 44px;
+}
+
+.BuyingCard {
+  display: flex;
+}
+
+.in1 {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 40px 0;
+}
+
+.BuyingCard img {
+  margin-right: 24px;
+}
+
+.detal div {
+  display: flex;
+}
+
+.detal h4 {
+  margin-bottom: 24px;
+}
+
+.detaltext {
+  padding: 16px 0;
+  margin: 16px 0;
+  border-top: 1px solid rgb(201 187 188);
+  border-bottom: 1px solid rgb(201 187 188);
+}
+
+.detaltext p {
+  margin-bottom: 0px !important;
+}
+
+.price1 {
+  display: flex;
+  padding: 8px 0;
+}
+
+.price1 h4 {
+  margin-left: auto;
+}
+
+.finalprice {
+  display: flex;
+  border-top: 1px solid rgb(201 187 188);
+  padding-top: 16px;
+}
+
+.finalprice h4 {
+  margin-left: auto;
+}
+
+.payment {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.payinfull {
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s linear;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.payment label.selected {
+  background: #8dd3bb;
+}
+
+.payinfull input {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.payinlater a {
+  width: fit-content;
+  display: block;
+}
+
+.payinlater {
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.payinlater input {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.payinlater div h6 {
+  position: relative;
+  width: fit-content;
+  padding-bottom: 3px;
+}
+
+.payinlater div h6:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  animation: expand-line 0.5s forwards;
+}
+
+.CreditCardBox {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 40px;
+}
+
+.CreditCardBox input {
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+  width: 100%;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.CreditCardBox button {
+  background: #8dd3bb;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.orCont {
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.or {
+  width: 100%;
+  height: 1px;
+  background-color: #112211;
+  opacity: 0.25;
+}
+
+.orCont h5 {
+  position: absolute;
+  opacity: 1 !important;
+  background-color: white;
+  padding: 24px;
+  z-index: 99999999;
+}
+
+.othericons {
+  display: flex;
+  gap: 15px;
+}
+
+.othericons button {
+  width: 33.333% !important;
+  background-color: white !important;
+  border: 1px solid black;
+  height: 56px;
+}
+
+.emailcontinue {
+  background-color: white !important;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px !important;
+  height: 56px !important;
+}
+
+.emailcontinue svg {
+  margin-right: 10px;
+}
+
+.AddCreditBox {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 40px;
+}
+
+.AddCreditColl {
+  padding-bottom: 20px;
+}
+
+.AddCreditRead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #8dd3bb;
+  border-radius: 8px;
+  height: 80px;
+  padding: 16px;
+}
+
+.AddCreditRead b {
+  margin-left: 32px;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.AddCreditRead input {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.AddCreditRead p {
+  margin-bottom: 0px;
+}
+
+.AddCreditRead h6 {
+  margin-left: auto;
+}
+
+.DeleteCardButton {
+  margin-left: auto;
+}
+
+.DeleteCardButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.AddNewCardRead {
+  border: 2px dashed #8dd3bb;
+  border-radius: 15px;
+  margin-top: 16px;
+  height: 188.83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddNewCardRead div {
+  text-align: center;
+}
+
+.AddCardPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999999999999999999999999;
+}
+
+.PopupContent {
+  position: relative;
+  width: 640px;
+  height: fit-content;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 64px;
+}
+
+.CloseButton {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.PayInputsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.PayInputs input {
+  height: 56px;
+  background: white;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+}
+
+.PayInputs select {
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+}
+
+.PayInputs {
+  position: relative;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.PayInputs span {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.error input {
+  border-color: red !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.shake {
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.react-datepicker-popper {
+  left: -240px !important;
+  top: -110px !important;
+}
+
+.react-datepicker__triangle {
+  display: none !important;
+}
+
+@keyframes expand-line {
+  to {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px){
+  .DetailSecondColl{
+    position: fixed;
+    top: 5px;
+    left: 3%;
+    z-index: 999999999;
+    padding-left: 0px;
+  }
+
+  .in1{
+    width: 450px;
+  }
+
+  .DetailFirstColl{
+    width: 100%;
+  }
+
+  .detal div h5{
+    display: block !important;
+  }
+
+  .DetailSecondColl[data-index = true]{
+    transform: translateX(-400%);
+    transition: all 0.6s ease-in-out;
+  }
+
+  .wowzer[data-index = true]{
+    display: block !important;
+    z-index: 99999;
+  }
+}
+
+@media (max-width: 769px){
+  .wowzer[data-index = true]{
+    right: -87% !important;
+  }
+
+  .shanxai{
+    margin-top: 100px !important;
+  }
+
+  .EmiratesBox{
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 500px){
+  .wowzer[data-index = true]{
+    right: -82% !important;
+  }
+
+  .in1{
+    transform: scale(0.7);
+  }
+
+  .DetailSecondColl{
+    left: -10%;
+  }
+}

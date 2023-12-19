@@ -1,0 +1,18 @@
+
+@media (max-width: 769px){
+    .textt div{
+        width: 100%;
+    }
+
+    .textt{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .textt{
+        text-align: center;
+    }
+  }

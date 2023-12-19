@@ -1,0 +1,124 @@
+.header2{
+    background-image: url(../img/secHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    position: relative;
+    margin: 0;
+    height: 620px;
+}
+
+.poto{
+    background: linear-gradient(90deg, rgba(0, 35, 77, 0.63) 11.46%, rgba(0, 35, 77, 0) 77.37%);
+    height: 100%;
+    max-width: 100%;
+}
+
+.plo{
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.travel-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+}
+
+.travel-coll{
+    width: 25%;
+    padding: 8px;
+}
+
+.poto-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+}
+
+.poto-coll{
+    width: 50%;
+}
+
+.poto-read{
+    padding: 24px;
+    background: #8DD3BB;
+    border-radius: 20px;
+}
+
+.poto-read1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.poto-colll{
+    width: 50%;
+    padding: 0px 0px 24px 24px;
+}
+
+.poto-readd{
+    border: 2px solid #8DD3BB;
+    border-radius: 12px;
+    height: 100%;
+}
+
+@media (max-width: 1200px){
+    .header2{
+        height: 500px;
+    }
+
+    .travel-coll{
+        width: 50%;
+    }
+}
+
+@media (max-width: 991px){
+    .poto-coll{
+        width: 100%;
+    }
+
+    .poto-read1{
+        height: 424px;
+        margin-top: 30px;
+    }
+
+    .first{
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 769px ){
+    .header2{
+        margin-bottom: 100px;
+    }
+
+    .flight-box1{
+        bottom: -250px !important;
+    }
+}
+
+@media (max-width: 575px){
+    .travel-coll{
+        width: 100%;
+    }
+}
+
+@media (max-width: 474px){
+    .poto-colll{
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 24px !important;
+    }
+
+    .poto-read1{
+        height: 848px;
+    }
+
+    .poto-read h1{
+        font-size: 40px !important;
+    }
+
+}
