@@ -5,6 +5,7 @@ import flycard1 from "../svgs/flycard1.svg";
 import arrow from "../svgs/arrow.svg";
 import DatePicker from "react-datepicker";
 import { parseISO } from "date-fns";
+import { UserData } from "../components/UsersInfo";
 
 function MyAccount() {
   const user = JSON.parse(localStorage.getItem("UserData"));
@@ -114,7 +115,7 @@ function MyAccount() {
 
   const [cardList, setCardList] = useState(Credit ? [Credit] : []);
 
-  const CardLimit = 4; // Maximum number of cards (4 for this scenario)
+  const CardLimit = 4;
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -129,7 +130,6 @@ function MyAccount() {
         ? inputValue.replace(/\D/g, "").replace(/(^\d{4}|\d{4})(?=\d)/g, "$1 ")
         : inputValue;
 
-    // Update the creditInfo state
     setCreditInfo((prevCreditInfo) => ({
       ...prevCreditInfo,
       [name]: formattedValue,
@@ -187,6 +187,41 @@ function MyAccount() {
 
   const [gg, setGG] = useState(false);
 
+  const handleFileSelect = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const updatedUser = { ...user, pfp: e.target.result };
+        localStorage.setItem('UserData', JSON.stringify(updatedUser));
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleImageChange = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+  
+      reader.onload = (e) => {
+        const imageUrl = e.target.result;
+        user.backgroundimage = imageUrl;
+        localStorage.setItem("UserData", JSON.stringify(user));
+      };
+  
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleButtonClick = () => {
+    document.getElementById('fileInput').click();
+  };
+
+  const handleSvgClick = () => {
+    document.getElementById('fileInput').click();
+  };
+
   return (
     <>
       <div className="container">
@@ -195,11 +230,21 @@ function MyAccount() {
             <div
               className="backimg"
               style={{
-                backgroundImage:
-                  "url('https://img.freepik.com/premium-vector/modern-3d-geometry-shapes-black-lines-with-orange-borders-dark-background_125759-17.jpg')",
+                backgroundImage: `url('${user.backgroundimage || "https://img.freepik.com/premium-vector/modern-3d-geometry-shapes-black-lines-with-orange-borders-dark-background_125759-17.jpg"}')`,
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
               }}
             >
-              <button>
+
+             <input
+                id="fileInput"
+                type="file"
+                accept="image/*"
+                style={{ display: "none" }}
+                onChange={handleImageChange}
+             />  
+              <button onClick={handleButtonClick}>
                 <svg
                   width="180"
                   height="48"
@@ -225,6 +270,7 @@ function MyAccount() {
                 <div style={{ position: "relative" }}>
                   <img src={user.pfp}></img>
                   <svg
+                    onClick={handleSvgClick}
                     width="45"
                     height="44"
                     viewBox="0 0 45 44"
@@ -246,6 +292,13 @@ function MyAccount() {
                       strokeLinejoin="round"
                     />
                   </svg>
+                  <input
+                    type="file"
+                    id="fileInput"
+                    accept="image/*"
+                    style={{ display: 'none' }}
+                    onChange={handleFileSelect}
+                  />
                 </div>
                 <h5>{user.firstName}</h5>
                 <p>{user.email}</p>
