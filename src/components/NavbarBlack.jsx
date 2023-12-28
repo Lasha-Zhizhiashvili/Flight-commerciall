@@ -273,7 +273,24 @@ function Navbar({ check, hotel }) {
                           />
                         </svg>
 
-                        <h6>Logout</h6>
+                        <h6
+                            onClick={() => {
+                              const storedCreditCard = JSON.parse(
+                                localStorage.getItem("CreditCard")
+                              );
+
+                              storedCreditCard.LoggedIn = false;
+
+                              localStorage.setItem(
+                                "CreditCard",
+                                JSON.stringify(storedCreditCard)
+                              );
+
+                              window.location.reload();
+                            }}
+                          >
+                            Logout
+                          </h6>
                       </div>
                     </div>
                   </div>
